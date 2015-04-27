@@ -12,8 +12,8 @@ Cartes électroniques
 - nfc shield
 - bees shield
 
-Adaptateur 
-----------
+Adaptateur réseau
+-----------------
 
 - bluetooth
 - wifi
