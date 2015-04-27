@@ -1,6 +1,10 @@
 
 
-- boitier sur mesure
+boitier sur mesure
+------------------
+
+- planches de X mm d'épaisseur
+- 
 
 - cartes électroniques
 
