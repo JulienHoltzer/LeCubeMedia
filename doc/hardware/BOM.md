@@ -30,8 +30,7 @@ Hub USB
 Cables
 ------
 
-- cables USB
-- cables électroniques
+- cable USB
 
 Alimentation
 ------------
