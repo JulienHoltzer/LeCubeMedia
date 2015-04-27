@@ -1,4 +1,1 @@
-Matériau
---------
-
->Le premier boitier est réalisé en PVC expansé (Forex). D'autres matériaux et designs sont possibles.
+http://pobot.org/Plans-du-boitier-du-Cube.html
