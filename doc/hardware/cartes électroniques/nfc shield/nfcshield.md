@@ -1,1 +1,1 @@
-http://seeedstudio.com/wiki/NFC_Shield
+http://seeedstudio.com/wiki/NFC_Shield_V2.0
