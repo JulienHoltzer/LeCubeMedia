@@ -38,6 +38,8 @@ Alimentation
 Caméra
 ------
 
+- caméra HD 
+
 Ecran
 -----
 
