@@ -1,8 +1,7 @@
 Boitier sur mesure
 ------------------
 
-- 6 planches de 5 mm d'épaisseur
-- en PVC ou d'autre matériau 
+- planches de 5 mm d'épaisseur
 
 Cartes électroniques
 --------------------
@@ -25,8 +24,10 @@ Convertisseur de voltage
 Hub USB
 -------
 
-Cables USB
-----------
+- the pi hut hub à 7 ports
+
+Cables
+------
 
 Alimentation
 ------------
@@ -37,12 +38,14 @@ Caméra
 Ecran
 -----
 
+- composite ou HDMI
+
 Microphone
 ----------
 
 Enceinte
 --------
 
-
-
+- alimentation USB
+- jack 3,5mm
 
