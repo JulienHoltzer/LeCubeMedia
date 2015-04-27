@@ -57,3 +57,6 @@ Enceinte
 - alimentation USB
 - jack 3,5mm
 
+Connecteurs
+-----------
+
