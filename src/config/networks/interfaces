@@ -1,0 +1,26 @@
+auto lo
+
+iface lo inet loopback
+
+# Connexion filaire
+iface eth0 inet dhcp
+
+# Pour faire du wifi un access point
+allow hotplug wlan0
+iface wlan0 inet static
+	address 192.168.42.1
+	netmask 255.255.255.0
+
+# Pour faire du wifi un hot-spot (bridge) 
+#auto br0
+#iface br0 inet dhcp
+#bridge_ports eth0 wlan0
+
+# Interface wifi "standard"
+allow-hotplug wlan1
+iface wlan1 inet manual
+wpa-roam /etc/wpa_supplicant/wpa-roam.conf
+
+iface default inet dhcp
+
+up iptables-restore < /etc/iptables.ipv4.nat
