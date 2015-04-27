@@ -11,6 +11,8 @@ cartes électroniques
 
 - arduino alamode
 - raspberry pi
+- nfc shield
+- bees shield
 
 adaptateur de connexion
 -----------------------
@@ -18,8 +20,6 @@ adaptateur de connexion
 - bluetooth
 - wifi
 
-nfc shield
-----------
 
 antenne nfc
 -----------
@@ -43,5 +43,8 @@ microphone
 
 enceinte
 --------
+
+cables
+------
 
 
