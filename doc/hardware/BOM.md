@@ -20,6 +20,7 @@ Adaptateur réseau
 Convertisseur de voltage
 ------------------------
 
+- 12V à 5V
 
 Hub USB
 -------
@@ -28,6 +29,9 @@ Hub USB
 
 Cables
 ------
+
+- cables USB
+- cables électroniques
 
 Alimentation
 ------------
