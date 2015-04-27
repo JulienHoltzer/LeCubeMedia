@@ -1,12 +1,10 @@
-
-
-boitier sur mesure
+Boitier sur mesure
 ------------------
 
 - 6 planches de 5 mm d'épaisseur
 - en PVC ou d'autre matériau 
 
-cartes électroniques
+Cartes électroniques
 --------------------
 
 - arduino alamode
@@ -14,37 +12,32 @@ cartes électroniques
 - nfc shield
 - bees shield
 
-adaptateur de connexion
+Adaptateur de connexion
 -----------------------
 
 - bluetooth
 - wifi
 
-
-antenne nfc
------------
-
-convertisseur de voltage
+Convertisseur de voltage
 ------------------------
 
 
-hub usb
+Hub USB
 --------------
 
-caméra
+Caméra
 ------
 
-
-écran
+Ecran
 -----
 
-microphone
+Microphone
 ----------
 
-enceinte
+Enceinte
 --------
 
-cables
+Cables
 ------
 
 
