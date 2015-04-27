@@ -23,7 +23,9 @@ Convertisseur de voltage
 
 
 Hub USB
---------------
+-------
+
+Cables USB
 
 Caméra
 ------
@@ -37,7 +39,6 @@ Microphone
 Enceinte
 --------
 
-Cables
-------
+
 
 
