@@ -24,7 +24,7 @@ Convertisseur de voltage
 Hub USB
 -------
 
-- the pi hut hub à 7 ports
+- the pi hut, hub à 7 ports
 
 Cables
 ------
