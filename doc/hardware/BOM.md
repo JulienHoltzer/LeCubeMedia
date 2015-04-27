@@ -35,6 +35,8 @@ Cables
 Alimentation
 ------------
 
+- alimentation 12v
+
 Caméra
 ------
 
