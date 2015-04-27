@@ -12,8 +12,8 @@ Cartes électroniques
 - nfc shield
 - bees shield
 
-Adaptateur de connexion
------------------------
+Adaptateur 
+----------
 
 - bluetooth
 - wifi
@@ -26,6 +26,10 @@ Hub USB
 -------
 
 Cables USB
+----------
+
+Alimentation
+------------
 
 Caméra
 ------
