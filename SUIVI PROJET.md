@@ -10,3 +10,7 @@ Découverte du Cube
 Liste du matériel
 
 Mise à jour du repository GitHub
+
+### Jour 2 : 28/04
+
+Principes et usages
