@@ -34,9 +34,8 @@ class Cube :
         try :
             func(*p,**k)
         except:
-            logging.error('Failed to run task') # TBD : better error management
-            traceback.print_exc()
-
+            logging.exception('Failed to run task') # TBD : better error management
+	    traceback.print_exc()
         self.loop_tasks.task_done()
         return True
 
