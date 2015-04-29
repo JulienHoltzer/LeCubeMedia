@@ -1,0 +1,22 @@
+prototype architecture XMPP pour le cube
+
++Cube
+- serveur XMPP (@example.com)
+- bot (manager@example.com)
+
+- bot projet (proj1@example.com)
+- bot projet (proj2@example.com)
+- ...
+
+- pubsub timeline projet (proj1@timeline.example.com)
+- pubsub timeline projet (proj2@timeline.example.com)
+- ...
+
+- bot utilisateur (si besoin) u1@example.com/cube
+- ...
+
++Device utilisateur (smartphone / tablette)
+- client (u1@example.com/phone .../tab ...)
+
++Outil
+- client (o1@example.com)
