@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "-- Mise en place de l'environnement de test --"
+
+echo "Démarrage du Cube"
+python /home/pobot/lecubemedia/src/protoxmpp/server/main.py -c /home/pobot/lecubemedia/src/protoxmpp/server/pobot.cfg &
+cubepid=`echo $!`
+echo CUBE pid : $cubepid \n
+
+
