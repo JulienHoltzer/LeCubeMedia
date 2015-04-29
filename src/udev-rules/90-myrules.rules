@@ -1,0 +1,1 @@
+ACTION=="add", KERNEL=="video*", SUBSYSTEM=="video4linux", ATTR{name}=="USB 2.0 Camera", RUN+="/usr/local/bin/start_webcam.sh"
