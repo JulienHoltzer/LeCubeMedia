@@ -45,12 +45,15 @@ Sélectionner un réseau, mettre son password et enregistrer le fichier wpa-roam
 TODO : écriture de nouveaux modules Python (répertoire /mod) et envoyer des messages depuis des tags NFC à ces modules :
 
 TODO : module n°1 = mettre à jour la liste des réseaux connus par recherche wifi (ce qui permettra ensuite d'en sélectionner un via interface php)
+
 TODO : module n°2 = tweeter l'ouverture de SoFAB / la fermeture de SoFAB / envoyer un tweet "fermeture pour X minutes" avec deux tags (le second permet de définir le nombre de minutes)
+
 TODO : amélioration du module n°2 = faire la somme de N tags pour définir un nombre de minutes précis (48 = 30 + 10 + 5 + 2 + 1)
 
 ## Semaine 4
 
 TODO : module n°3 = passer un tag "dépense" puis un tag "adhérent n°XXX" (numéro unique) puis un tag "laser" ou "imp3D" puis une somme de minutes
+
 TODO : module n°4 = passer un tag "achat" puis un tag "adhérent n°XXX" puis un nombre d'écrous
 
 TODO : affichage sur l'écran de chaque tag + l'interprétation du tag (quel module le traite) + état du processus (lecture, validation, attente)
