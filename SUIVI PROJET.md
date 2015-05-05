@@ -27,8 +27,15 @@ Installation du serveur web "lighttpd" et du PHP
 
 TODO : charger et afficher les réseaux déjà connus (dans le fichier wpa-roam.conf) et ceux disponibles sur le Wifi sur une          page
 
-TODO : sélectionner un réseau, mettre son password et enregistrer le fichier wpar-roam.conf
+TODO : sélectionner un réseau, mettre son password et enregistrer le fichier wpa-roam.conf
 
+### Jour 4 : 05/05
+
+Affichage des réseaux connus et disponibles sur PHP
+
+TODO : compléter le saisie sur PHP pour ajouter le réseau
+
+TODO : supression d'un réseaux du fichier wpa-roam.conf
 
 ## Semaine 3
 
