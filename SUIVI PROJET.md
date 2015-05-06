@@ -37,8 +37,13 @@ Charger et afficher les réseaux déjà connus (dans le fichier wpa-roam.conf) e
 
 Affichage des réseaux connus et disponibles sur PHP
 
-Sélectionner un réseau, mettre son password et enregistrer le fichier wpa-roam.conf
+Sélectionner un réseau, mettre son password et enregistrer le fichier wpa-roam.conf via PHP
 
+### Jour 5 : 06/05
+
+Supression de réseau dans le fichier wpa-roam.conf via PHP
+
+Traduction de la documentation en anglais
 
 ## Semaine 3
 
