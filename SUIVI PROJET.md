@@ -45,6 +45,12 @@ Supression de réseau dans le fichier wpa-roam.conf via PHP
 
 Traduction de la documentation en anglais
 
+### Jour 6 : 07/05
+
+Modification du fonctionnement de la suppression et de l'ajout de réseaux (SSID)
+
+Continuation de la traduction en anglais
+
 ## Semaine 3
 
 TODO : écriture de nouveaux modules Python (répertoire /mod) et envoyer des messages depuis des tags NFC à ces modules :
