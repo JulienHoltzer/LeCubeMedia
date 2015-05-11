@@ -63,7 +63,7 @@ TODO : amélioration du module n°2 = faire la somme de N tags pour définir un 
 
 ### Jour 7 : 11/05
 
-Reprendre l'ajout et la suppression de réseaux(SSID)
+Reprendre l'ajout et la suppression de réseaux (SSID)
 * Sur PHP, récupérer la liste des SSID depuis un fichier intermédiaire, l'afficher.
 * Action + saisie via PHP, mettre à jour la liste, la stocker dans un autre fichier (') et l'afficher.
 * NFC tag : lancer le programme network-update (modifier des fichiers dans /etc) en fonction des configurations faites, et stocker la nouvelle liste dans le fichier intermédiaire.
