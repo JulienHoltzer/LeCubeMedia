@@ -1,11 +1,10 @@
 import os
-#scan available networks
-os.system('sudo iwlist wlan1 scan | grep ESSID > networks')		
-f = open('networks', "r")
-w = open('listssid', "a")
+os.system('sudo iwlist wlan1 scan | grep ESSID > scanresults')
+f = open ('scanresults', "r")
+w = open('listssidfromscan', "w")
 
 for line in iter(f):
-	
+
 	prevline = ""
 	words = line.split(":")
 	for i in words:
@@ -15,18 +14,17 @@ for line in iter(f):
 				print ssid
 				w.write(ssid + "\n")
 		prevline = i
-	
-			
+
 w.close()
 f.close()
 
 seenlines = set()
-outfile = open('ssidlistfin', "w")
-w = open('listssid', "r")
-for line in w:
+outfile = open('listssidfromscanfin', "w")
+r = open('listssidfromscan', "r")
+for line in r:
 	if line not in seenlines:
 		outfile.write(line)
 		seenlines.add(line)
 
-
 outfile.close()
+

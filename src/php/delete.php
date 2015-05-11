@@ -21,55 +21,33 @@ a:hover { text-decoration: none; color: #C00; background: #FC0; }
 <div id="page">
  <div id="header">
  <h1> Network Setup </h1>
-  SELECT AN SSID
+  SSID REMOVAL
  </div>
 
-<p>
-<form action="delete.php" method="post">
-
 <?php
-	$file = fopen("/home/pi/LeCubeMedia/src/network-update/listssidfromfile", "r") or die ("ERROR");
-	$file2 = fread($file, filesize("/home/pi/LeCubeMedia/src/network-update/listssidfromfile"));
+	if($_POST["delete"] == NULL){
+		echo "<br>";
+		print "ERROR. Please select an SSID to delete.";
+		echo "<br>";}else{
+	
+	//-----ERROR REPORTING
+	//error_reporting(E_ALL);
+	//ini_set('display_errors', 1);
 
-	$ssid = explode("\n", $file2);
-	$l = count($ssid);
-	$i = 0;
-	while ($i < $l-1){
-		echo "<input type='radio' name='delete' value='$ssid[$i]'> $ssid[$i] <br> ";
-		$i++;
+	$file = fopen("/home/pi/LeCubeMedia/src/network-update/ssiddelete", "w") or die ("ERROR");
+	$target = $_POST["delete"];
+	
+	fwrite($file, $target);
+	fclose($file);
+
+	echo "<p>Attention: $target will only be removed definitively by tapping the corresponding NFC tag to 
+	the Cube</p>";
 	}
-
 ?>
-<input type="submit" value="Delete">
-</form>
-</p>
 
-<form action="add.php" method="post">
-	<select name="add">
-
-<?php
-	$file = fopen("/home/pi/LeCubeMedia/src/network-update/listssidfromscanfin", "r") or die ("ERROR");
-	$file2 = fread($file, filesize("/home/pi/LeCubeMedia/src/network-update/listssidfromscanfin"));
-
-	$ssid = explode("\n", $file2);
-	$l = count($ssid);
-	$i = 0;
-	while ($i < $l){
-		echo "<option value='$ssid[$i]' > $ssid[$i] </option>";
-		$i++;
-	}
-
-?>
-	</select>
-	<br>
-	Password: <input type="text" name="password">
-	<br>
-	<input type="submit" value="Add">
-
-</form>
+<a href="http://192.168.42.1/index.php"> Return </a>
 
 
 </div>
-<!-- s:853e9a42efca88ae0dd1a83aeb215047 -->
 </body>
 </html>
