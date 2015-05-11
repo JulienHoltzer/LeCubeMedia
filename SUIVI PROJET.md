@@ -1,7 +1,7 @@
 # Suivi du projet 
 
 
-## Semaine 1
+## SEMAINE 1
 
 ### Jour 1 : 27/04
 
@@ -17,7 +17,7 @@ Principes et usages
 
 Lecture des codes sources du Cube
 
-## Semaine 2
+## SEMAINE 2
 
 TODO : serveur web sur la Raspberry Pi avec page de sélection d'un nouveau SSID + saisie du mot de passe
 
@@ -51,7 +51,7 @@ Modification du fonctionnement de la suppression et de l'ajout de réseaux (SSID
 
 Continuation de la traduction en anglais
 
-## Semaine 3
+## SEMAINE 3
 
 TODO : écriture de nouveaux modules Python (répertoire /mod) et envoyer des messages depuis des tags NFC à ces modules :
 
@@ -61,7 +61,14 @@ TODO : module n°2 = tweeter l'ouverture de SoFAB / la fermeture de SoFAB / envo
 
 TODO : amélioration du module n°2 = faire la somme de N tags pour définir un nombre de minutes précis (48 = 30 + 10 + 5 + 2 + 1)
 
-## Semaine 4
+### Jour 7 : 11/05
+
+Reprendre l'ajout et la suppression de réseaux(SSID)
+* Sur PHP, récupérer la liste des SSID depuis un fichier intermédiaire, l'afficher.
+* Action + saisie via PHP, mettre à jour la liste, la stocker dans un autre fichier (') et l'afficher.
+* NFC tag : lancer le programme network-update (modifier des fichiers dans /etc) en fonction des configurations faites, et stocker la nouvelle liste dans le fichier intermédiaire.
+
+## SEMAINE 4
 
 TODO : module n°3 = passer un tag "dépense" puis un tag "adhérent n°XXX" (numéro unique) puis un tag "laser" ou "imp3D" puis une somme de minutes
 
@@ -69,11 +76,11 @@ TODO : module n°4 = passer un tag "achat" puis un tag "adhérent n°XXX" puis u
 
 TODO : affichage sur l'écran de chaque tag + l'interprétation du tag (quel module le traite) + état du processus (lecture, validation, attente)
 
-## Semaine 5
+## SEMAINE 5
 
-## Semaine 6
+## SEMAINE 6
 
-## Semaine 7
+## SEMAINE 7
 
 ## Semaine 8
 
