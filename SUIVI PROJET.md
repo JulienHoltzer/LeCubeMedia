@@ -74,6 +74,8 @@ Etudes des codes sources et les fonctionnements du NFC via Python.
 
 ### Jour 9 : 13/05
 
+TODO : pas de chemin en dur!
+
 Presentation en détail du déroulement du fonctionnemet NFC en ce qui concerne les codes sources.
 
 Un nouveau module permettant de publier un tweet avec photo sur Twitter.
