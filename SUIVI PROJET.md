@@ -80,6 +80,11 @@ Presentation en détail du déroulement du fonctionnemet NFC en ce qui concerne 
 
 Un nouveau module permettant de publier un tweet avec photo sur Twitter.
 
+### Jour 10 : 15/05
+
+Introduction de Hashtags dans le service Twitter
+
+
 
 ## SEMAINE 4
 
@@ -90,6 +95,8 @@ TODO : module n°4 = passer un tag "achat" puis un tag "adhérent n°XXX" puis u
 TODO : affichage sur l'écran de chaque tag + l'interprétation du tag (quel module le traite) + état du processus (lecture, validation, attente)
 
 ## SEMAINE 5
+
+TODO : voir http://linuxfr.org/news/rpi-monitor-un-outil-de-supervision-a-personnaliser
 
 ## SEMAINE 6
 
