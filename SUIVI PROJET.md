@@ -68,6 +68,19 @@ Reprendre l'ajout et la suppression de réseaux (SSID)
 * Action + saisie via PHP, mettre à jour la liste, la stocker dans un autre fichier (') et l'afficher.
 * NFC tag : lancer le programme network-update (module) en fonction des configurations faites, et stocker la nouvelle liste dans le fichier wpa-roam.conf
 
+### Jour 8 : 12/05
+
+Etudes des codes sources et les fonctionnements du NFC via Python.
+
+### Jour 9 : 13/05
+
+TODO : pas de chemin en dur!
+
+Presentation en détail du déroulement du fonctionnemet NFC en ce qui concerne les codes sources.
+
+Un nouveau module permettant de publier un tweet avec photo sur Twitter.
+
+
 ## SEMAINE 4
 
 TODO : module n°3 = passer un tag "dépense" puis un tag "adhérent n°XXX" (numéro unique) puis un tag "laser" ou "imp3D" puis une somme de minutes

@@ -1,6 +1,7 @@
 # LeCubeMedia
 
-Dispositif multimédia automatisé réalisé avec Pobot et SoFAB. Ce projet est open source et open hardware.
+Dispositif multimédia automatisé réalisé avec Pobot et SoFAB. 
+Ce projet est open source et open hardware.
 
 Il comporte une partie matérielle : un cube en plastique permettant de connecter caméras, services webs, micros, etc..
 
