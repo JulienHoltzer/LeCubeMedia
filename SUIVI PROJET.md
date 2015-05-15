@@ -64,25 +64,27 @@ TODO : amélioration du module n°2 = faire la somme de N tags pour définir un 
 ### Jour 7 : 11/05
 
 Reprendre l'ajout et la suppression de réseaux (SSID)
-* Sur PHP, récupérer la liste des SSID depuis un fichier intermédiaire, et l'afficher.
-* Action + saisie via PHP, mettre à jour la liste, la stocker dans un autre fichier (') et l'afficher.
+* Sur PHP, récupérer la liste des SSID depuis un fichier intermédiaire, et l'afficher
+* Action + saisie via PHP, mettre à jour la liste, la stocker dans un autre fichier (') et l'afficher
 * NFC tag : lancer le programme network-update (module) en fonction des configurations faites, et stocker la nouvelle liste dans le fichier wpa-roam.conf
 
 ### Jour 8 : 12/05
 
-Etudes des codes sources et les fonctionnements du NFC via Python.
+Etudes des codes sources et les fonctionnements du NFC via Python
 
 ### Jour 9 : 13/05
 
 TODO : pas de chemin en dur!
 
-Presentation en détail du déroulement du fonctionnemet NFC en ce qui concerne les codes sources.
+Presentation en détail du déroulement du fonctionnemet NFC en ce qui concerne les codes sources
 
-Un nouveau module permettant de publier un tweet avec photo sur Twitter.
+Un nouveau module permettant de publier un tweet avec photo sur Twitter
 
 ### Jour 10 : 15/05
 
-Introduction de Hashtags dans le service Twitter
+Travail sur la notification "InsecurePlatformWarning"
+
+Introduction de deux nouveaux modules dans le service Twitter pour annoncer l'ouverture et la fermeture du SoFAB et durée d'une fermeture temporaire
 
 
 
