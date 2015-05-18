@@ -33,10 +33,6 @@ class TestManager :
 	logging.debug('CLIC !')
 
 def init(cube, params):
-<<<<<<< HEAD
 	logging.info("TEST management module initialization")
-=======
-	logging.info("TEST management module intialization")
->>>>>>> d0d323f5426a76fb98c950a736b0165320396a87
 	tagtype = params.get("tagtype","tst")
 	cube.test_manager = TestManager(cube, tagtype)
