@@ -86,8 +86,6 @@ Travail sur la notification "InsecurePlatformWarning"
 
 Introduction de deux nouveaux modules dans le service Twitter pour annoncer l'ouverture et la fermeture du SoFAB et durée d'une fermeture temporaire
 
-
-
 ## SEMAINE 4
 
 TODO : module n°3 = passer un tag "dépense" puis un tag "adhérent n°XXX" (numéro unique) puis un tag "laser" ou "imp3D" puis une somme de minutes
@@ -95,6 +93,11 @@ TODO : module n°3 = passer un tag "dépense" puis un tag "adhérent n°XXX" (nu
 TODO : module n°4 = passer un tag "achat" puis un tag "adhérent n°XXX" puis un nombre d'écrous
 
 TODO : affichage sur l'écran de chaque tag + l'interprétation du tag (quel module le traite) + état du processus (lecture, validation, attente)
+
+TODO : side project - documentation d'un nouveau Cube sur makake (http://www.makake.co/)
+
+TODO : travail sur la documentation de l'utilisation de Git
+
 
 ## SEMAINE 5
 
