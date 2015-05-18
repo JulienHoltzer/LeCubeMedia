@@ -5,6 +5,7 @@ import subprocess
 import time
 import datetime
 import tweepy
+import json
 
 class TwitterManager :
 
@@ -26,7 +27,18 @@ class TwitterManager :
         self.twitter_data = json.load(file)
         file.close()
 
+<<<<<<< HEAD
+	#TWITTER API
+	file = open('mod/twitter.list')
+	self.twitter_data = json.load(file)
+	file.close()
+	
+	
+
+	cfg = {
+=======
        cfg = {
+>>>>>>> d0d323f5426a76fb98c950a736b0165320396a87
 		"CONSUMER_KEY": "value",
 		"CONSUMER_SECRET": "valuee",
 		"OAUTH_TOKEN": "valueee",
