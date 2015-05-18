@@ -102,6 +102,8 @@ TODO : travail sur la documentation de l'utilisation de Git
 
 Continuation du travail et améliorations des modules permettant de publier des tweets (ouverture et fermeture du SoFAB)
 
+Plusieurs tags pour un fonctionnement!
+
 ## SEMAINE 5
 
 TODO : voir http://linuxfr.org/news/rpi-monitor-un-outil-de-supervision-a-personnaliser
