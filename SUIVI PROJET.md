@@ -98,6 +98,9 @@ TODO : side project - documentation d'un nouveau Cube sur makake (http://www.mak
 
 TODO : travail sur la documentation de l'utilisation de Git
 
+### Jour 10 : 18/05
+
+Continuation du travail et améliorations des modules permettant de publier des tweets (ouverture et fermeture du SoFAB)
 
 ## SEMAINE 5
 
