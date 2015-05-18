@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import logging
 import json
 
@@ -15,12 +17,13 @@ class NfcManager :
 	    self.last_id = data
 	    self.last_command = self.tags_data[data]['type']+":"+self.tags_data[data]['detail']
 	    logging.debug("Tag : %s", self.last_command)
-	    self.cube.tag_detection('VIDEO',self.last_command)
+	    self.cube.tag_detection(self.tags_data[data]['type'],self.last_command)
 	else:
 	    logging.info("ID inconnu : %s",data)
 
     def load_data(self):
-        file = open('/home/pi/lecubemedia/src/protoxmpp/server/mod/tags.list')
+	# TODO : transformer en chemin relatif et/ou en paramètre de lecube.cfg
+        file = open('/home/pi/LeCubeMedia/src/lecube/mod/tags.list')
         self.tags_data = json.load(file)
         logging.debug("Charge : %s",self.tags_data)
         file.close()

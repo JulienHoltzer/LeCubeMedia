@@ -21,7 +21,7 @@ if __name__ == "__main__":
     formatter = logging.Formatter('%(asctime)s :: %(levelname)s :: %(message)s')
     # création d'un handler qui va rediriger une écriture du log vers
     # un fichier en mode 'append', avec 1 backup et une taille max de 1Mo
-    file_handler = RotatingFileHandler('/home/pi/lecubemedia/log/activity.log','a', 1000000,2)
+    file_handler = RotatingFileHandler('/home/pi/LeCubeMedia/log/activity.log','a', 1000000,2)
     # on lui met le niveau sur DEBUG, on lui dit qu'il doit utiliser le formateur
     # créé précédement et on ajoute ce handler au logger
     file_handler.setLevel(logging.DEBUG)

@@ -27,11 +27,14 @@ class ActionManager :
 	if (data == 'PHOTO'):
 	    ts = time.time()
             st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d_%H-%M-%S')
+            # TODO : pas de chemin en dur
+            # TODO : creer un repertoire par PROJET (par exemple)
 	    filename = '/home/pi/images/'+ st +'.jpg'
             command = 'raspistill -hf -vf --width 400 --height 300 --timeout 1000 -awb auto -o '+filename
 	    logging.debug(command)
 	    subprocess.call(command.split(),shell=False)
 	    self.cube.tag_detection('CHATROOM','CHATROOM:PHOTO:'+st)
+            self.cube.tag_detection('TWITTER','TWITTER:PHOTO:'+filename)
 	    logging.debug('CLIC !')
 	if (data == 'RECORD'):
 	    self.cube.tag_detection('CHATROOM','CHATROOM:Attention, ça tourne !')
