@@ -109,6 +109,7 @@ Plusieurs tags pour un fonctionnement!
 Introductions des nouveaux modules.
    * toshare.py = différentiation de plateforme (ex : twitter, facebook) pour les publications de contenu à partager
    * timedur.py = un compteur défini par des tags ayant des valuers différentes
+
 Completion du Module n°2 (intermédiare...)
 
 ### Jour 13 : 20/05
