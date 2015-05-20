@@ -1,5 +1,11 @@
 # Suivi du projet 
 
+TAG NFC
+* NONO : photo.py - prise d'une photo, publier sur Twitter
+* LECTURE : open.py - ouverture et fermeture du SoFAB
+* PAUSE : open.py - fermeture temporaire (pour "x" minutes) du SoFAB
+* ARDUINO : timedur.py - définir la valeur "x"
+* HUB : toshare.py - partage du contenu sur Twitter/Facebook/etc...
 
 ## SEMAINE 1
 
