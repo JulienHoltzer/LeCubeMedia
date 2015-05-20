@@ -11,8 +11,6 @@ class ToshareManager :
 
 	def __init__(self, cube, tagtype):
 		self.cube = cube
-		self.recordv = None
-		self.recorda = None
 		cube.register_tag_handler(tagtype,self.handle_action_tag)
 
 	def handle_action_tag(self, ttype, data):
@@ -42,12 +40,12 @@ class ToshareManager :
 			api = get_api(self.open_data)
 			status = api.update_status(status=tweet)
 			logging.debug('TWEET sent')
-		
-	
-		
+
+
+
 		#if (data == 'FACEBOOK'):
 
-	
+
 
 
 def get_api(cfg):
