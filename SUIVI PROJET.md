@@ -104,6 +104,15 @@ Continuation du travail et améliorations des modules permettant de publier des 
 
 Plusieurs tags pour un fonctionnement!
 
+### Jour 12 : 19/05
+
+Introductions des nouveaux modules.
+   * toshare.py = différentiation de plateforme (ex : twitter, facebook) pour les publications de contenu à partager
+   * timedur.py = un compteur défini par des tags ayant des valuers différentes
+Completion du Module n°2 (intermédiare...)
+
+### Jour 13 : 20/05
+
 ## SEMAINE 5
 
 TODO : voir http://linuxfr.org/news/rpi-monitor-un-outil-de-supervision-a-personnaliser
