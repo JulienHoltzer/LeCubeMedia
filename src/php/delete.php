@@ -34,7 +34,7 @@ a:hover { text-decoration: none; color: #C00; background: #FC0; }
 	//error_reporting(E_ALL);
 	//ini_set('display_errors', 1);
 
-	$file = fopen("/home/pi/LeCubeMedia/src/network-update/ssiddelete", "w") or die ("ERROR");
+	$file = fopen("/home/pi/LeCubeMedia/src/lecube/mod/ssiddelete", "w") or die ("ERROR");
 	$target = $_POST["delete"];
 	
 	fwrite($file, $target);

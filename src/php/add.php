@@ -35,7 +35,7 @@ a:hover { text-decoration: none; color: #C00; background: #FC0; }
 	//error_reporting(E_ALL);
 	//ini_set('display_errors', 1);
 
-	$file = fopen("/home/pi/LeCubeMedia/src/network-update/ssidadd", "w") or die ("ERROR");
+	$file = fopen("/home/pi/LeCubeMedia/src/lecube/mod/ssidadd", "w") or die ("ERROR");
 	$target = $_POST["add"];
 	$pwd = $_POST["password"];
 	$sep = ":::";

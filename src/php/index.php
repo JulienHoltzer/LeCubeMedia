@@ -28,8 +28,8 @@ a:hover { text-decoration: none; color: #C00; background: #FC0; }
 <form action="delete.php" method="post">
 
 <?php
-	$file = fopen("/home/pi/LeCubeMedia/src/network-update/listssidfromfile", "r") or die ("ERROR");
-	$file2 = fread($file, filesize("/home/pi/LeCubeMedia/src/network-update/listssidfromfile"));
+	$file = fopen("/home/pi/LeCubeMedia/src/lecube/mod/listssidfromfile", "r") or die ("ERROR");
+	$file2 = fread($file, filesize("/home/pi/LeCubeMedia/src/lecube/mod/listssidfromfile"));
 
 	$ssid = explode("\n", $file2);
 	$l = count($ssid);
@@ -48,8 +48,8 @@ a:hover { text-decoration: none; color: #C00; background: #FC0; }
 	<select name="add">
 
 <?php
-	$file = fopen("/home/pi/LeCubeMedia/src/network-update/listssidfromscanfin", "r") or die ("ERROR");
-	$file2 = fread($file, filesize("/home/pi/LeCubeMedia/src/network-update/listssidfromscanfin"));
+	$file = fopen("/home/pi/LeCubeMedia/src/lecube/mod/listssidfromscanfin", "r") or die ("ERROR");
+	$file2 = fread($file, filesize("/home/pi/LeCubeMedia/src/lecube/mod/listssidfromscanfin"));
 
 	$ssid = explode("\n", $file2);
 	$l = count($ssid);
