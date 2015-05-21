@@ -123,6 +123,14 @@ Completion du Module n°2 (intermédiare...)
 
 ### Jour 13 : 20/05
 
+Mise à jour des configs réseaux
+
+Etudes sur les modules suivants (sauvegarde de données "achat, dépense" dans un fichier excel)
+
+### Jour 14 : 21/05
+
+Introduction d'un module pour ajouter des hashtags pour la publication d'une photo sur Twitter
+
 ## SEMAINE 5
 
 TODO : voir http://linuxfr.org/news/rpi-monitor-un-outil-de-supervision-a-personnaliser
