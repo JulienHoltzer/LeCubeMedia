@@ -6,6 +6,9 @@ TAG NFC
 * PAUSE : open.py - fermeture temporaire (pour "x" minutes) du SoFAB
 * ARDUINO : timedur.py - définir la valeur "x"
 * HUB : toshare.py - partage du contenu sur Twitter/Facebook/etc...
+* ANDROID : hashtags.py - #Android
+* NFC : hashtags.py - #NFC
+* Raspberry Pi : hashtags.py - #RaspberryPi
 
 ## SEMAINE 1
 
