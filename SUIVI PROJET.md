@@ -131,6 +131,8 @@ Etudes sur les modules suivants (sauvegarde de données "achat, dépense" dans u
 
 Introduction d'un module pour ajouter des hashtags pour la publication d'une photo sur Twitter
 
+Installation, introduction d'un lib pour tout ce qui concerne les fichiers Excel (.xlsx)
+
 ## SEMAINE 5
 
 TODO : voir http://linuxfr.org/news/rpi-monitor-un-outil-de-supervision-a-personnaliser
