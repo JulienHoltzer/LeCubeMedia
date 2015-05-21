@@ -24,10 +24,13 @@ class PhotoManager :
 	# TODO : creer un repertoire par PROJET (par exemple)
 	filename = '/home/pi/images/'+ st +'.jpg'
 	command = 'raspistill -hf -vf --width 1280 --height 720 --timeout 3000 -awb auto -o '+filename
+	file = open('mod/filepath', 'w')
+	file.write(filename)
+	file.close
 	logging.debug(command)
 	subprocess.call(command.split(),shell=False)
 
-	### --- automatic post
+	### --- automatic post to Twitter
 	#self.cube.tag_detection('TWITTER','TWITTER:'+filename)
 	#logging.debug('CLIC !')
 
