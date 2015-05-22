@@ -49,6 +49,10 @@ class ToshareManager :
 				api = get_api(self.open_data)
 				status = api.update_status(status=tweet)
 				logging.debug('TWEET sent')
+
+				filetimedur = open('mod/timedur', 'w')
+				filetimedur.write('0')
+				filetimedur.close()
 			else:
 				api = get_api(self.twitter_data)
 				file = open('mod/filepath', 'r')

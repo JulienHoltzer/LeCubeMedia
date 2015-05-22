@@ -9,8 +9,6 @@ import json
 
 class TwitterManager :
 
-
-
     def __init__(self, cube, tagtype):
 	   self.cube = cube
 	   cube.register_tag_handler(tagtype,self.handle_action_tag)
@@ -24,17 +22,6 @@ class TwitterManager :
 	   file = open('mod/twitter.list')
            self.twitter_data = json.load(file)
            file.close()
-
-
-	#TWITTER API
-	   file = open('mod/twitter.list')
-	   self.twitter_data = json.load(file)
-	   file.close()
-	
-	
-
-
-
 
 	   api = get_api(self.twitter_data)
 	   photo_path = data

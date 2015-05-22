@@ -10,8 +10,6 @@ class PhotoManager :
 
     def __init__(self, cube, tagtype):
 	self.cube = cube
-	self.recordv = None
-	self.recorda = None
 	cube.register_tag_handler(tagtype,self.handle_action_tag)
 
     def handle_action_tag(self, ttype, data):
