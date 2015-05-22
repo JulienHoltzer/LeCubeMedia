@@ -4,7 +4,7 @@ TAG NFC
 * NONO : photo.py - prise d'une photo, publier sur Twitter
 * LECTURE : open.py - ouverture et fermeture du SoFAB
 * PAUSE : open.py - fermeture temporaire (pour "x" minutes) du SoFAB
-* ARDUINO : timedur.py - définir la valeur "x"
+* ARDUINO : timedur.py - ayant '30' pour valeur, définir la valeur "x"
 * HUB : toshare.py - partage du contenu sur Twitter/Facebook/etc...
 * ANDROID : hashtags.py - #Android
 * NFC : hashtags.py - #NFC
