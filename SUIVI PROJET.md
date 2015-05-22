@@ -107,10 +107,6 @@ TODO : module n°4 = passer un tag "achat" puis un tag "adhérent n°XXX" puis u
 
 TODO : affichage sur l'écran de chaque tag + l'interprétation du tag (quel module le traite) + état du processus (lecture, validation, attente)
 
-TODO : side project - documentation d'un nouveau Cube sur makake (http://www.makake.co/)
-
-TODO : travail sur la documentation de l'utilisation de Git
-
 ### Jour 11 : 18/05
 
 Continuation du travail et améliorations des modules permettant de publier des tweets (ouverture et fermeture du SoFAB)
@@ -143,6 +139,10 @@ Des nouveaux modules pour sauvegarder des données concernant les activités fai
 * tool.py
 
 ## SEMAINE 5
+
+TODO : side project - documentation d'un nouveau Cube sur makake (http://www.makake.co/)
+
+TODO : travail sur la documentation de l'utilisation de Git
 
 TODO : voir http://linuxfr.org/news/rpi-monitor-un-outil-de-supervision-a-personnaliser
 
