@@ -129,9 +129,14 @@ Etudes sur les modules suivants (sauvegarde de données "achat, dépense" dans u
 
 ### Jour 14 : 21/05
 
-Introduction d'un module pour ajouter des hashtags pour la publication d'une photo sur Twitter
+Un nouveau module pour ajouter des hashtags pour la publication d'une photo sur Twitter
 
-Installation, introduction du lib openpyxl pour tout ce qui concerne les fichiers Excel (.xlsx)
+### Jour 14 : 21/05
+
+Des nouveaux modules pour sauvegarder des données concernant les activités faites au sein du lab (dépense/achat) dans des fichiers simples.
+* activite.py
+* adherent.py
+* tool.py
 
 ## SEMAINE 5
 
