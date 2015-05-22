@@ -9,6 +9,10 @@ TAG NFC
 * ANDROID : hashtags.py - #Android
 * NFC : hashtags.py - #NFC
 * Raspberry Pi : hashtags.py - #RaspberryPi
+* Achat : activite.py
+* Dépense : activite.py
+* User1 : adherent.py
+* Tool1 : tool.py
 
 ## SEMAINE 1
 
@@ -131,7 +135,7 @@ Etudes sur les modules suivants (sauvegarde de données "achat, dépense" dans u
 
 Un nouveau module pour ajouter des hashtags pour la publication d'une photo sur Twitter
 
-### Jour 14 : 21/05
+### Jour 15 : 22/05
 
 Des nouveaux modules pour sauvegarder des données concernant les activités faites au sein du lab (dépense/achat) dans des fichiers simples.
 * activite.py
