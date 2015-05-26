@@ -105,8 +105,6 @@ TODO : module n°3 = passer un tag "dépense" puis un tag "adhérent n°XXX" (nu
 
 TODO : module n°4 = passer un tag "achat" puis un tag "adhérent n°XXX" puis un nombre d'écrous
 
-TODO : affichage sur l'écran de chaque tag + l'interprétation du tag (quel module le traite) + état du processus (lecture, validation, attente)
-
 ### Jour 11 : 18/05
 
 Continuation du travail et améliorations des modules permettant de publier des tweets (ouverture et fermeture du SoFAB)
@@ -139,6 +137,10 @@ Des nouveaux modules pour sauvegarder des données concernant les activités fai
 * tool.py
 
 ## SEMAINE 5
+
+TODO : affichage sur l'écran de chaque tag + l'interprétation du tag (quel module le traite) + état du processus (lecture, validation, attente)
+
+TODO : gestion de fichier (upload/modification) sur Google Drive grace à API
 
 TODO : side project - documentation d'un nouveau Cube sur makake (http://www.makake.co/)
 
