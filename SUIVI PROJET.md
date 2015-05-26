@@ -148,6 +148,14 @@ TODO : travail sur la documentation de l'utilisation de Git
 
 TODO : voir http://linuxfr.org/news/rpi-monitor-un-outil-de-supervision-a-personnaliser
 
+### Jour 16 : 26/05
+
+Créer un nouveau projet sur Google pour avoir des clès (Google API)
+
+Introduction et installation de PyDrive (http://pythonhosted.org/PyDrive/) pour pouvoir mettre en ligne des fichiers sur Google Drive via Python
+
+Ajout d'un nouveau module permettant de mettre en ligne des fichiers sur Google Drive
+
 ## SEMAINE 6
 
 ## SEMAINE 7
