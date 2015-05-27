@@ -154,7 +154,15 @@ Créer un nouveau projet sur Google pour avoir des clès (Google API)
 
 Introduction et installation de PyDrive (http://pythonhosted.org/PyDrive/) pour pouvoir mettre en ligne des fichiers sur Google Drive via Python
 
-Ajout d'un nouveau module permettant de mettre en ligne des fichiers sur Google Drive
+Ajout d'un nouveau module "updrive.py" permettant de mettre en ligne des fichiers sur Google Drive
+
+### Jour 17 : 27/05
+
+Introduction de 2 nouveaux tags pour lancer le module "updrive.py" et des petites adaptations pour son fonctionnement
+
+Amélioration du module en y ajoutant un option de mettre en ligne des photos à partir d'un répertoire défini
+
+Etudes/découvert de la notion de Comet pour ce qui concerne l'IHM
 
 ## SEMAINE 6
 
