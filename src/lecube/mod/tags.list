@@ -8,4 +8,5 @@
 "04 C8 CC 42 BC 2B 80":{"type":"OPEN","detail":"CLOSETEMP"},"04 DC CC 42 BC 2B 80":{"type":"ACTION","detail":"HALT"},
 "04 DD CC 42 BC 2B 80":{"type":"NETWORK","detail":"SCAN"},"04 00 CC 42 BC 2B 81":{"type":"ACTIVITE","detail":"DEPENSE"},
 "04 FF CC 42 BC 2B 80":{"type":"ACTIVITE","detail":"ACHAT"},"04 DF CC 42 BC 2B 80":{"type":"ADHERENT","detail":"USER1"},
-"04 E0 CC 42 BC 2B 80":{"type":"TOOL","detail":"TOOL1"}}   
+"04 E0 CC 42 BC 2B 80":{"type":"TOOL","detail":"TOOL1"}, "04 FA CC 42 BC 2B 80":{"type":"UPDRIVE","detail":"DOCS"},
+"04 FB CC 42 BC 2B 80":{"type":"UPDRIVE","detail":"PICS"}}   
