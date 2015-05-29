@@ -164,6 +164,14 @@ Amélioration du module en y ajoutant un option de mettre en ligne des photos à
 
 Etudes/découvert de la notion de Comet pour ce qui concerne l'IHM
 
+### Jour 18 : 28/05
+
+Tutoriels sur le Comet et introduction à Cometd 
+
+Installation de CherryPy qui semble adapté au projet, introduction à ses fonctionnements
+
+### Jour 19 : 29/05
+
 ## SEMAINE 6
 
 ## SEMAINE 7
