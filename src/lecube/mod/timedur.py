@@ -58,9 +58,37 @@ class TimedManager :
 			print "Counter: " + state
 			file.write(state)
 			file.close()
-			
-
 		
+		if (data == '2'):
+			filestate = open('mod/timedur', 'r')
+			for line in iter(filestate):
+				state = line
+			logging.debug("Previously : %s",state)
+			filestate.close()
+			state = 2 + int(state)
+
+			file = open('mod/timedur', 'w')
+			state = str(state)
+			logging.debug("Currently : %s",state)
+			print "Counter: " + state
+			file.write(state)
+			file.close()
+
+		if (data == '1'):
+			filestate = open('mod/timedur', 'r')
+			for line in iter(filestate):
+				state = line
+			logging.debug("Previously : %s",state)
+			filestate.close()
+			state = 1 + int(state)
+
+			file = open('mod/timedur', 'w')
+			state = str(state)
+			logging.debug("Currently : %s",state)
+			print "Counter: " + state
+			file.write(state)
+			file.close()
+			
 	
 
 def init(cube, params):
