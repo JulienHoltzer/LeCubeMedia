@@ -172,10 +172,18 @@ Installation de CherryPy qui semble adapté au projet, introduction à ses fonct
 
 ### Jour 19 : 29/05
 
+Continuation du travail sur CherryPy
+
 ## SEMAINE 6
+
+### Jour 20 : 01/06
+
+Quelques petites mises à jour des modules existants (timedur.py, photo.py)
+
+Ajout des nouveaux tags pour le compteur (timedur.py) et les activités (activite.py)
 
 ## SEMAINE 7
 
-## Semaine 8
+## SEMAINE 8
 
-## Semaine 9
+## SEMAINE 9
