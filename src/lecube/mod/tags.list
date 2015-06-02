@@ -10,7 +10,7 @@
 "04 FF CC 42 BC 2B 80":{"type":"ACTIVITE","detail":"ACHAT"},"FA 51 68 A1":{"type":"ADHERENT","detail":"USER1"},
 "3A 28 69 A1":{"type":"ADHERENT","detail":"USER2"},"BA 21 64 A1":{"type":"ADHERENT","detail":"USER3"},
 "04 E0 CC 42 BC 2B 80":{"type":"TOOL","detail":"TOOL1"}, "04 DF CC 42 BC 2B 80":{"type":"TOOL","detail":"TOOL2"},
-"04 FA CC 42 BC 2B 80":{"type":"UPDRIVE","detail":"DOCS"},
+"04 FA CC 42 BC 2B 80":{"type":"UPDRIVE","detail":"DOCS"}, "04 FD CC 42 BC 2B 80":{"type":"RESET","detail":"Resetti"},
 "04 FB CC 42 BC 2B 80":{"type":"UPDRIVE","detail":"PICS"},"04 FE CC 42 BC 2B 80":{"type":"TIMEDUR","detail":"30"},
 "04 03 CC 42 BC 2B 81":{"type":"TIMEDUR","detail":"1"},"04 02 CC 42 BC 2B 81":{"type":"TIMEDUR","detail":"2"},
 "04 01 CC 42 BC 2B 81":{"type":"TIMEDUR","detail":"5"},"04 DE CC 42 BC 2B 80":{"type":"TIMEDUR","detail":"10"}}   

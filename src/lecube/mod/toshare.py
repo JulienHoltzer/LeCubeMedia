@@ -65,12 +65,9 @@ class ToshareManager :
 	   			status = api.update_with_media(pic, status=tweet)
 	   			logging.debug('PHOTO published')
 
-				file = open('mod/filepath', 'w')
-				file.write('')
-				file.close()
-				file = open('mod/hashtags', 'w')
-				file.write('')
-				file.close()
+				file = open('mod/filepath', 'w').close()
+				file = open('mod/hashtags', 'w').close()
+				
 	
 		
 		#if (data == 'FACEBOOK'):

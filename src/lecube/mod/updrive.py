@@ -2,6 +2,7 @@
 
 import logging
 import subprocess
+import os
 from os import listdir
 from os.path import isfile, join
 
@@ -9,7 +10,7 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
 
-class ToshareManager :
+class UpdriveManager :
 
 	def __init__(self, cube, tagtype):
 		self.cube = cube
@@ -20,50 +21,79 @@ class ToshareManager :
 		gauth = GoogleAuth()
 		drive = GoogleDrive(gauth)
 		gauth.LoadCredentialsFile("mycreds.txt")
-	
-		#---find FOLDER ID
+		check = os.stat("mod/hashtags").st_size
+
+		######---find FOLDER ID
 		#file_list = drive.ListFile({'q': "'root' in parents and trashed=false"}).GetList()
 		#for file1 in file_list:
 		#print 'title: %s, id: %s' % (file1['title'], file1['id'])
 	
-
+		######---authentication
 		if gauth.credentials is None:
 			gauth.LocalWebserverAuth()
-		elif gauth.access_token_expired:
+		if gauth.access_token_expired:
 			gauth.Refresh()
 		else:
 			gauth.Authorize()
 		gauth.SaveCredentialsFile("mycreds.txt")
 
-		drive = GoogleDrive(gauth)
-
-
 		if (data == 'DOCS'):
+			
+			### upload achat and depense 
 			file1 = drive.CreateFile({'parents': [{"id": '0BzafXZYwn_6NbnBQN2VEejgzV1k'}]})
 			file1.SetContentFile('mod/achat.txt')
 			file1.Upload()
-
+				
 			file2 = drive.CreateFile({'parents': [{"id": '0BzafXZYwn_6NbnBQN2VEejgzV1k'}]})
 			file2.SetContentFile('mod/depense.txt')
 			file2.Upload()
+			logging.debug("Upload done.")
 
 		if (data == 'PICS'):
-			onlyfiles = [f for f in listdir('/home/pi/images/') if isfile(join('/home/pi/images/',f))]
+			file = open('mod/filepath', 'r')
+			path = file.readlines()
+			pic = path[0]
 
-			for file in onlyfiles:
+			if (check == 0):
+			### list every photo
+				onlyfiles = [f for f in listdir('/home/pi/images/') if isfile(join('/home/pi/images/',f))]
+
+			### upload pic	
 				file1 = drive.CreateFile({'parents': [{"id": '0BzafXZYwn_6NbnBQN2VEejgzV1k'}]})
-				
-				path = '/home/pi/images/' + file
-				file1.SetContentFile(path)
+				file1.SetContentFile(pic)
 				file1.Upload()
-			
-		logging.debug("Upload done.")
+				logging.debug("Upload done.")
+
+				file = open('mod/filepath', 'w').close()
+			else:
+				file = open('mod/hashtags', 'r')
+				hash = file.readlines()	
+				hashtag = hash[0]
+				hashtag = hashtag[1:-1]
+				
+
+				file_list = drive.ListFile({'q': "'root' in parents and trashed=false"}).GetList()
+				for file1 in file_list:
+					print 'title: %s, id: %s' % (file1['title'], file1['id'])
+					print hashtag
+					print file1['title']
+					if (file1['title'] == hashtag):
+						file1 = drive.CreateFile({'parents': [{"id": file1['id']}]})
+						file1.SetContentFile(pic)
+						file1.Upload()
+						logging.debug("Upload done.")
+					
+
+				file = open('mod/filepath', 'w').close()
+				file = open('mod/hashtags', 'w').close()
+
+
 #0BzafXZYwn_6NbnBQN2VEejgzV1k    ('Guitare' Folder ID - test)
 #0B8mDDuHeuNHDfmM0OXlWTndpdkczNHBBY3VJaXJ2ZlNqVVBoWWk3UDZnc0NvMS1Gd1JtWU0 ('Cube' folder ID)
 
 
 
 def init(cube, params):
-    logging.info("Toshare management module initialization")
+    logging.info("Updrive management module initialization")
     tagtype = params.get("tagtype","twt")
-    cube.toshare_manager = ToshareManager(cube, tagtype)
+    cube.toshare_manager = UpdriveManager(cube, tagtype)
