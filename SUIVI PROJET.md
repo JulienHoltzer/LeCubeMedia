@@ -181,7 +181,16 @@ Quelques petites mises à jour des modules existants (timedur.py, photo.py)
 
 Ajout des nouveaux tags pour le compteur (timedur.py) et les activités (activite.py)
 
+### Jour 21 : 02/06
+
+Amélioration du module updrive.py - possibilité de définir le répertoire dans lequel on veut uploader une photo en introduisant un tag NFC correspondant.
+
+Ajout du module reset.py pour remettre à zéro les données temporaires
+
+Des petites adaptations (toshare.py)
+
 ## SEMAINE 7
+
 
 ## SEMAINE 8
 
