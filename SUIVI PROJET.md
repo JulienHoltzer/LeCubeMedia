@@ -189,6 +189,18 @@ Ajout du module reset.py pour remettre à zéro les données temporaires
 
 Des petites adaptations (toshare.py)
 
+### Jour 21 : 03/06
+
+Configuration audio pour le microphone sur le Raspberry Pi, non-réussi
+
+Documentation des fonctionnements du Cube
+
+### Jour 22 : 04/06
+
+Continuation de la documentation
+
+Petite adaptation du module updrive (upload vers le bon repertoire)
+
 ## SEMAINE 7
 
 
