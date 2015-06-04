@@ -26,7 +26,7 @@ class UpdriveManager :
 		######---find FOLDER ID
 		#file_list = drive.ListFile({'q': "'root' in parents and trashed=false"}).GetList()
 		#for file1 in file_list:
-		#print 'title: %s, id: %s' % (file1['title'], file1['id'])
+		#	print 'title: %s, id: %s' % (file1['title'], file1['id'])
 	
 		######---authentication
 		if gauth.credentials is None:
@@ -40,11 +40,11 @@ class UpdriveManager :
 		if (data == 'DOCS'):
 			
 			### upload achat and depense 
-			file1 = drive.CreateFile({'parents': [{"id": '0BzafXZYwn_6NbnBQN2VEejgzV1k'}]})
+			file1 = drive.CreateFile({'parents': [{"id": '0B8mDDuHeuNHDfmM0OXlWTndpdkczNHBBY3VJaXJ2ZlNqVVBoWWk3UDZnc0NvMS1Gd1JtWU0'}]})
 			file1.SetContentFile('mod/achat.txt')
 			file1.Upload()
 				
-			file2 = drive.CreateFile({'parents': [{"id": '0BzafXZYwn_6NbnBQN2VEejgzV1k'}]})
+			file2 = drive.CreateFile({'parents': [{"id": '0B8mDDuHeuNHDfmM0OXlWTndpdkczNHBBY3VJaXJ2ZlNqVVBoWWk3UDZnc0NvMS1Gd1JtWU0'}]})
 			file2.SetContentFile('mod/depense.txt')
 			file2.Upload()
 			logging.debug("Upload done.")
@@ -59,7 +59,7 @@ class UpdriveManager :
 				onlyfiles = [f for f in listdir('/home/pi/images/') if isfile(join('/home/pi/images/',f))]
 
 			### upload pic	
-				file1 = drive.CreateFile({'parents': [{"id": '0BzafXZYwn_6NbnBQN2VEejgzV1k'}]})
+				file1 = drive.CreateFile({'parents': [{"id": '0B8mDDuHeuNHDfmM0OXlWTndpdkczNHBBY3VJaXJ2ZlNqVVBoWWk3UDZnc0NvMS1Gd1JtWU0'}]})
 				file1.SetContentFile(pic)
 				file1.Upload()
 				logging.debug("Upload done.")
