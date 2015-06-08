@@ -203,7 +203,7 @@ Petite adaptation du module updrive (upload vers le bon repertoire)
 
 ### Jour 22 : 05/06
 
-Configuration audio et microphone
+Configuration audio et microphone pour l'enregistrement audio à utiliser avec le Speech Recognition
 
 ## SEMAINE 7
 
