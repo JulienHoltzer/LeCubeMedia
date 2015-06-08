@@ -201,6 +201,10 @@ Continuation de la documentation
 
 Petite adaptation du module updrive (upload vers le bon repertoire)
 
+### Jour 22 : 05/06
+
+Configuration audio et microphone
+
 ## SEMAINE 7
 
 
