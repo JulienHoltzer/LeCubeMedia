@@ -189,21 +189,27 @@ Ajout du module reset.py pour remettre à zéro les données temporaires
 
 Des petites adaptations (toshare.py)
 
-### Jour 21 : 03/06
+### Jour 22 : 03/06
 
 Configuration audio pour le microphone sur le Raspberry Pi, non-réussi
 
-Documentation des fonctionnements du Cube
+Documentation des fonctionnements du Cube (ResumeFonc.odt)
 
-### Jour 22 : 04/06
+### Jour 23 : 04/06
 
 Continuation de la documentation
 
 Petite adaptation du module updrive (upload vers le bon repertoire)
 
-### Jour 22 : 05/06
+### Jour 24 : 05/06
 
-Configuration audio et microphone pour l'enregistrement audio à utiliser avec le Speech Recognition
+Configuration audio et microphone pour l'enregistrement audio à utiliser avec le SpeechRecognition
+
+### Jour 25 : 08/06
+
+Installation du SpeechRecognition et du PyAudio pour la réconnaissance vocale
+
+Tests de module pour ce fonctionnement
 
 ## SEMAINE 7
 
