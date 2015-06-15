@@ -211,6 +211,20 @@ Installation du SpeechRecognition et du PyAudio pour la réconnaissance vocale
 
 Tests de module pour ce fonctionnement
 
+### Jour 26 : 09/06
+
+Tests du SpeechRecognition réussis
+
+### Jour 27 : 10/06
+
+### Jour 28 : 11/06
+
+### Jour 29 : 12/06
+
+### Jour 30 : 15/06
+
+Rédaction du rapport du projet
+
 ## SEMAINE 7
 
 
