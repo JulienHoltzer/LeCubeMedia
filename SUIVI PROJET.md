@@ -205,6 +205,8 @@ Petite adaptation du module updrive (upload vers le bon repertoire)
 
 Configuration audio et microphone pour l'enregistrement audio à utiliser avec le SpeechRecognition
 
+## SEMAINE 7
+
 ### Jour 25 : 08/06
 
 Installation du SpeechRecognition et du PyAudio pour la réconnaissance vocale
@@ -221,13 +223,24 @@ Tests du SpeechRecognition réussis
 
 ### Jour 29 : 12/06
 
+## SEMAINE 8
+
 ### Jour 30 : 15/06
 
 Rédaction du rapport du projet
 
-## SEMAINE 7
+### Jour 31 : 16/06
 
+### Jour 32 : 17/06
 
-## SEMAINE 8
+### Jour 33 : 18/06
+
+### Jour 34 : 19/06
 
 ## SEMAINE 9
+
+### Jour 35 : 22/06
+
+
+
+
