@@ -1,1 +1,1 @@
-{"CONSUMER_KEY":"", "CONSUMER_SECRET":"", "OAUTH_TOKEN":"", "OAUTH_TOKEN_SECRET":""}
+{"CONSUMER_KEY":"secret_key1", "CONSUMER_SECRET":"secret_key2", "OAUTH_TOKEN":"secret_key3", "OAUTH_TOKEN_SECRET":"secret_key4"}
